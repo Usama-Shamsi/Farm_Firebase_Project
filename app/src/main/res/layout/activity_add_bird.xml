@@ -1,0 +1,94 @@
+<!-- res/layout/activity_add_record.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvBatch"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Add Flock"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="120dp"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+        <!-- ID -->
+
+        <EditText
+            android:id="@+id/editTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:minHeight="58dp" />
+
+        <!-- Breed -->
+        <EditText
+            android:id="@+id/editTextBreed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Breed"
+            android:minHeight="58dp" />
+
+        <!-- Number of Birds -->
+        <EditText
+            android:id="@+id/editTextNumberOfBirds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Birds"
+            android:inputType="number"
+            android:minHeight="58dp" />
+
+        <EditText
+            android:id="@+id/editTextBirdArrival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Date of Arrival"
+            android:inputType="date"
+            android:minHeight="58dp" />
+        <!-- Age in Days -->
+        <EditText
+            android:id="@+id/editTextAgeInDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age in Days"
+            android:inputType="number"
+            android:minHeight="58dp" />
+
+        <!-- Vaccination Status -->
+        <CheckBox
+            android:id="@+id/checkBoxVaccinationStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="58dp"
+            android:text="Vaccination Status" />
+
+        <!-- Button to Submit -->
+        <Button
+            android:id="@+id/btnSubmitFlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="52dp"
+            android:onClick="onAddRecordClick"
+            android:text="Add Record" />
+        <Button
+            android:id="@+id/btnBackAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="52dp"
+            android:text="Back" />
+    </LinearLayout>
+
+
+</LinearLayout>

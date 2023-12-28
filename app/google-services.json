@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470001658453",
+    "project_id": "farm-management-6d8c1",
+    "storage_bucket": "farm-management-6d8c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470001658453:android:440ff839fb84585e6942dc",
+        "android_client_info": {
+          "package_name": "com.example.farm_firebase_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAOLqGMqsP-WSG9DCm81x7Wxc0q-rQEX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
